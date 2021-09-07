@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6145DBC626E737DE00AF08B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6145DBC526E737DE00AF08B1 /* AppDelegate.m */; };
+		6145DBCC26E737DE00AF08B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6145DBCB26E737DE00AF08B1 /* ViewController.m */; };
+		6145DBCF26E737DE00AF08B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6145DBCD26E737DE00AF08B1 /* Main.storyboard */; };
+		6145DBD126E737E100AF08B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6145DBD026E737E100AF08B1 /* Assets.xcassets */; };
+		6145DBD426E737E100AF08B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6145DBD226E737E100AF08B1 /* LaunchScreen.storyboard */; };
+		6145DBD726E737E100AF08B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6145DBD626E737E100AF08B1 /* main.m */; };
+		6145DBE126E737E100AF08B1 /* TYMenuControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6145DBE026E737E100AF08B1 /* TYMenuControllerTests.m */; };
+		6145DBEC26E737E100AF08B1 /* TYMenuControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6145DBEB26E737E100AF08B1 /* TYMenuControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6145DBDD26E737E100AF08B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6145DBB926E737DE00AF08B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6145DBC026E737DE00AF08B1;
+			remoteInfo = TYMenuController;
+		};
+		6145DBE826E737E100AF08B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6145DBB926E737DE00AF08B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6145DBC026E737DE00AF08B1;
+			remoteInfo = TYMenuController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6145DBC126E737DE00AF08B1 /* TYMenuController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYMenuController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6145DBC426E737DE00AF08B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6145DBC526E737DE00AF08B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6145DBCA26E737DE00AF08B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6145DBCB26E737DE00AF08B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6145DBCE26E737DE00AF08B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6145DBD026E737E100AF08B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6145DBD326E737E100AF08B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6145DBD526E737E100AF08B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6145DBD626E737E100AF08B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6145DBDC26E737E100AF08B1 /* TYMenuControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYMenuControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6145DBE026E737E100AF08B1 /* TYMenuControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYMenuControllerTests.m; sourceTree = "<group>"; };
+		6145DBE226E737E100AF08B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6145DBE726E737E100AF08B1 /* TYMenuControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYMenuControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6145DBEB26E737E100AF08B1 /* TYMenuControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYMenuControllerUITests.m; sourceTree = "<group>"; };
+		6145DBED26E737E100AF08B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6145DBBE26E737DE00AF08B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6145DBD926E737E100AF08B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6145DBE426E737E100AF08B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6145DBB826E737DE00AF08B1 = {
+			isa = PBXGroup;
+			children = (
+				6145DBC326E737DE00AF08B1 /* TYMenuController */,
+				6145DBDF26E737E100AF08B1 /* TYMenuControllerTests */,
+				6145DBEA26E737E100AF08B1 /* TYMenuControllerUITests */,
+				6145DBC226E737DE00AF08B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6145DBC226E737DE00AF08B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6145DBC126E737DE00AF08B1 /* TYMenuController.app */,
+				6145DBDC26E737E100AF08B1 /* TYMenuControllerTests.xctest */,
+				6145DBE726E737E100AF08B1 /* TYMenuControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6145DBC326E737DE00AF08B1 /* TYMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				6145DBC426E737DE00AF08B1 /* AppDelegate.h */,
+				6145DBC526E737DE00AF08B1 /* AppDelegate.m */,
+				6145DBCA26E737DE00AF08B1 /* ViewController.h */,
+				6145DBCB26E737DE00AF08B1 /* ViewController.m */,
+				6145DBCD26E737DE00AF08B1 /* Main.storyboard */,
+				6145DBD026E737E100AF08B1 /* Assets.xcassets */,
+				6145DBD226E737E100AF08B1 /* LaunchScreen.storyboard */,
+				6145DBD526E737E100AF08B1 /* Info.plist */,
+				6145DBD626E737E100AF08B1 /* main.m */,
+			);
+			path = TYMenuController;
+			sourceTree = "<group>";
+		};
+		6145DBDF26E737E100AF08B1 /* TYMenuControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6145DBE026E737E100AF08B1 /* TYMenuControllerTests.m */,
+				6145DBE226E737E100AF08B1 /* Info.plist */,
+			);
+			path = TYMenuControllerTests;
+			sourceTree = "<group>";
+		};
+		6145DBEA26E737E100AF08B1 /* TYMenuControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6145DBEB26E737E100AF08B1 /* TYMenuControllerUITests.m */,
+				6145DBED26E737E100AF08B1 /* Info.plist */,
+			);
+			path = TYMenuControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6145DBC026E737DE00AF08B1 /* TYMenuController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6145DBF026E737E100AF08B1 /* Build configuration list for PBXNativeTarget "TYMenuController" */;
+			buildPhases = (
+				6145DBBD26E737DE00AF08B1 /* Sources */,
+				6145DBBE26E737DE00AF08B1 /* Frameworks */,
+				6145DBBF26E737DE00AF08B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYMenuController;
+			productName = TYMenuController;
+			productReference = 6145DBC126E737DE00AF08B1 /* TYMenuController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6145DBDB26E737E100AF08B1 /* TYMenuControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6145DBF326E737E100AF08B1 /* Build configuration list for PBXNativeTarget "TYMenuControllerTests" */;
+			buildPhases = (
+				6145DBD826E737E100AF08B1 /* Sources */,
+				6145DBD926E737E100AF08B1 /* Frameworks */,
+				6145DBDA26E737E100AF08B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6145DBDE26E737E100AF08B1 /* PBXTargetDependency */,
+			);
+			name = TYMenuControllerTests;
+			productName = TYMenuControllerTests;
+			productReference = 6145DBDC26E737E100AF08B1 /* TYMenuControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6145DBE626E737E100AF08B1 /* TYMenuControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6145DBF626E737E100AF08B1 /* Build configuration list for PBXNativeTarget "TYMenuControllerUITests" */;
+			buildPhases = (
+				6145DBE326E737E100AF08B1 /* Sources */,
+				6145DBE426E737E100AF08B1 /* Frameworks */,
+				6145DBE526E737E100AF08B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6145DBE926E737E100AF08B1 /* PBXTargetDependency */,
+			);
+			name = TYMenuControllerUITests;
+			productName = TYMenuControllerUITests;
+			productReference = 6145DBE726E737E100AF08B1 /* TYMenuControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6145DBB926E737DE00AF08B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6145DBC026E737DE00AF08B1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					6145DBDB26E737E100AF08B1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 6145DBC026E737DE00AF08B1;
+					};
+					6145DBE626E737E100AF08B1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 6145DBC026E737DE00AF08B1;
+					};
+				};
+			};
+			buildConfigurationList = 6145DBBC26E737DE00AF08B1 /* Build configuration list for PBXProject "TYMenuController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6145DBB826E737DE00AF08B1;
+			productRefGroup = 6145DBC226E737DE00AF08B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6145DBC026E737DE00AF08B1 /* TYMenuController */,
+				6145DBDB26E737E100AF08B1 /* TYMenuControllerTests */,
+				6145DBE626E737E100AF08B1 /* TYMenuControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6145DBBF26E737DE00AF08B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6145DBD426E737E100AF08B1 /* LaunchScreen.storyboard in Resources */,
+				6145DBD126E737E100AF08B1 /* Assets.xcassets in Resources */,
+				6145DBCF26E737DE00AF08B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6145DBDA26E737E100AF08B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6145DBE526E737E100AF08B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6145DBBD26E737DE00AF08B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6145DBCC26E737DE00AF08B1 /* ViewController.m in Sources */,
+				6145DBC626E737DE00AF08B1 /* AppDelegate.m in Sources */,
+				6145DBD726E737E100AF08B1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6145DBD826E737E100AF08B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6145DBE126E737E100AF08B1 /* TYMenuControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6145DBE326E737E100AF08B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6145DBEC26E737E100AF08B1 /* TYMenuControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6145DBDE26E737E100AF08B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6145DBC026E737DE00AF08B1 /* TYMenuController */;
+			targetProxy = 6145DBDD26E737E100AF08B1 /* PBXContainerItemProxy */;
+		};
+		6145DBE926E737E100AF08B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6145DBC026E737DE00AF08B1 /* TYMenuController */;
+			targetProxy = 6145DBE826E737E100AF08B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6145DBCD26E737DE00AF08B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6145DBCE26E737DE00AF08B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6145DBD226E737E100AF08B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6145DBD326E737E100AF08B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6145DBEE26E737E100AF08B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6145DBEF26E737E100AF08B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6145DBF126E737E100AF08B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TYMenuController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TY.TYMenuController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6145DBF226E737E100AF08B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TYMenuController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TY.TYMenuController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6145DBF426E737E100AF08B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TYMenuControllerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TY.TYMenuControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYMenuController.app/TYMenuController";
+			};
+			name = Debug;
+		};
+		6145DBF526E737E100AF08B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TYMenuControllerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TY.TYMenuControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYMenuController.app/TYMenuController";
+			};
+			name = Release;
+		};
+		6145DBF726E737E100AF08B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TYMenuControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TY.TYMenuControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TYMenuController;
+			};
+			name = Debug;
+		};
+		6145DBF826E737E100AF08B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TYMenuControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TY.TYMenuControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TYMenuController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6145DBBC26E737DE00AF08B1 /* Build configuration list for PBXProject "TYMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6145DBEE26E737E100AF08B1 /* Debug */,
+				6145DBEF26E737E100AF08B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6145DBF026E737E100AF08B1 /* Build configuration list for PBXNativeTarget "TYMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6145DBF126E737E100AF08B1 /* Debug */,
+				6145DBF226E737E100AF08B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6145DBF326E737E100AF08B1 /* Build configuration list for PBXNativeTarget "TYMenuControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6145DBF426E737E100AF08B1 /* Debug */,
+				6145DBF526E737E100AF08B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6145DBF626E737E100AF08B1 /* Build configuration list for PBXNativeTarget "TYMenuControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6145DBF726E737E100AF08B1 /* Debug */,
+				6145DBF826E737E100AF08B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6145DBB926E737DE00AF08B1 /* Project object */;
+}
